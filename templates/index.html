@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>RSI + Hammer 전략</title>
+</head>
+<body>
+    <h2>📈 RSI + Hammer 전략 차트 생성</h2>
+    <form action="/generate" method="post">
+        종목 코드: <input type="text" name="symbol" value="AAPL"><br>
+        시작 날짜: <input type="date" name="start_date" value="2024-04-01"><br>
+        종료 날짜: <input type="date" name="end_date" value="2025-04-01"><br>
+        수수료 (%): <input type="text" name="commission" value="0.2"><br>
+        <input type="submit" value="차트 생성">
+    </form>
+</body>
+</html>
